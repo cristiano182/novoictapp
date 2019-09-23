@@ -1,0 +1,14 @@
+.my-course-card{
+    background-color: #2b2a44;
+     height: 170px;
+     min-width: 300px;
+       margin: 10px;
+       border-radius: 10px;
+      
+       
+}
+
+.my-course-card:hover{
+    height: 220px;
+    border: 5px solid #673AB7;
+}

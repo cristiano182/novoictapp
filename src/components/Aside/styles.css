@@ -1,0 +1,62 @@
+.Aside{
+      width: 10%;
+      background-color: #2b2a44;
+      margin: 0;
+      padding: 0 ;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center; 
+      flex-direction: column;
+}
+.my-link-aside{
+    font-size: 15px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 70px;
+    border: 0;
+    width: 100%;
+    color: gray;
+}
+
+.my-link-aside:hover{
+    border-left: 10px solid #673AB7;
+    text-decoration: none;
+    color: #ddd;
+
+}
+
+
+.my-logo{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    background: #673AB7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #aa38c1, #673AB7 );  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #aa38c1, #673AB7 );
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    margin-bottom: 40px;
+}
+
+
+@media (max-width: 768px){
+    .Aside{
+    }
+    .my-button{
+        width: 150px;
+        font-size: 15px;
+    }
+}
+
+
+
+@media (max-width: 414px){
+    .Aside{
+        display: none;
+    }
+}

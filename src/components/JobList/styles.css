@@ -1,0 +1,38 @@
+.my-job-list{
+    width: 100%;
+    height: 700px;
+    overflow-y: auto;
+    padding: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding-top: 0;
+}
+
+.my-input-job{
+    outline: 0;
+    border-color: none;
+    box-shadow: none;
+    border-radius: 50px;
+    border: 0;
+    height: 50px;
+    width: 500px;
+    background-color: #2b2a44;
+    padding-left: 30px;
+    color: #ddd;
+}
+
+.my-search-job{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 100px;
+}
+
+
+.my-job-container{
+    width: 100%;
+    height: 867px;
+}

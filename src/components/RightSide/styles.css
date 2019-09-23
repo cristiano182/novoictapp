@@ -1,0 +1,10 @@
+.my-right-side{
+    width: 18%;
+    background-color: #2b2a44;
+    margin: 0;
+    padding: 0 ;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+    flex-direction: column;
+}
